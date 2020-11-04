@@ -8,6 +8,7 @@ logo = """
    ‼     ‼   = ‼         ‼  ‼            ‼
 =======  =     =   =======  ‼            ‼
 """
+
 def one() : 
     username = input("Enter Target\'s username :\t")
     try:
@@ -19,10 +20,13 @@ def one() :
         print(f"Number of Following : {user.number_of_followings}\n")
         print(f"Number of Post : {user.number_of_posts}\n")
         print(f"Profile Picture Url : {user.profile_picture_url}\n")
-        
 
     except KeyError or IndexError : 
         print("Invalid User !!")
+
+def two() : 
+    pass
+
 
 if __name__ == "__main__":
 
@@ -33,7 +37,7 @@ if __name__ == "__main__":
         one()
 
     elif opt == 2 : 
-        pass
+        two()
 
     elif opt == 3 : 
         print("Thanks for giving your time")
