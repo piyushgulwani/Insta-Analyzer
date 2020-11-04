@@ -6,4 +6,4 @@
   - :two: Install it using by `pip install instagramy colorama`
   - :three: Run it using `python main.py`
 # *Features* 
-  - :one: All info of username 
+  - :one: All Info About User
