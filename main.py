@@ -24,14 +24,26 @@ def one() :
     except KeyError or IndexError : 
         print("Invalid User !!")
 
-def two() : 
-    pass
+def two() :
+    username = input("Enter Target\'s username : \t") 
+    user = instagramy.InstagramUser(username)
+    posts = user.posts
+
+    for post in posts : 
+        caption = post['caption']
+        likes = post['likes']
+        code = post['shortcode']
+        url = post['display_url']
+        print(f"\nNumber of Likes : {likes}\n")
+        print(f"Caption : {caption}\n")
+        print(f"Post Url : {url}\n")
+        print(f"Shortcode : {code}")
 
 
 if __name__ == "__main__":
 
     print(Style.BRIGHT + Fore.LIGHTMAGENTA_EX + logo)
-    opt = int(input("\n[1.] User Info\n[2.] Post Info\n[3.] Quit\n"))
+    opt = int(input("\n[1.] User Info\n[2.] User\'s Post Info\n[3.] Quit\n"))
     
     if opt == 1 : 
         one()
