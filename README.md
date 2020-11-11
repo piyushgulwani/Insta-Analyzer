@@ -1,5 +1,4 @@
 # Insta-Analyzer
-### This Project is under devlopment, So more features will be added soon
 
 # *Guidance* 
   - :one: Modules used `instagramy` and `colorama`
