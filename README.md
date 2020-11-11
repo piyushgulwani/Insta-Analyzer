@@ -1,4 +1,5 @@
 # Insta-Analyzer
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
 # *Guidance* 
   - :one: Modules used `instagramy` and `colorama`
